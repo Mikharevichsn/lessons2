@@ -1,0 +1,30 @@
+.parent {
+  width: 220px;
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.block {
+  outline: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.block.active {
+  background-color: #000;
+}
+
+.reversed .block {
+  background-color: #000;
+}
+
+.reversed .block.active {
+  background-color: #fff;
+}

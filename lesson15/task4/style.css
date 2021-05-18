@@ -1,0 +1,7 @@
+.tree__sub-tree {
+  display: none;
+}
+
+.opened {
+  display: block;
+}

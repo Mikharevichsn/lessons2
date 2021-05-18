@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid #000;
+  width: 400px;
+  position: relative;
+}
+
+.card.active {
+  background-color: lawngreen;
+}
+
+.card__delete {
+  cursor: pointer;
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
