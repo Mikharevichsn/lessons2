@@ -1,0 +1,13 @@
+h1 {
+    color: green;
+}
+
+.news {
+    border: 1px solid #000;
+}
+
+.news-item {
+    padding: 10px;
+    border: 1px solid green;
+    background-color: cornsilk;
+}

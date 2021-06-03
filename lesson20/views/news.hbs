@@ -1,0 +1,32 @@
+тут будут новости
+
+<ul>
+    {{#each newsArray}}
+        <li>{{ this }}</li>
+    {{/each}}
+</ul>
+
+<ul>
+    {{#each secondNewsArray}}
+        <li>{{ this.newsTitle }}</li>
+    {{/each}}
+</ul>
+
+<ul>
+    {{#each secondNewsArray}}
+        <li>{{ newsTitle }}</li>
+    {{/each}}
+</ul>
+
+<div class="news">
+    {{#each finalNewsArray}}
+        <div class="news-item">
+            <h3>
+                <a href="/novosti/{{ this.id }}">
+                    {{ this.newsTitle }}
+                </a>
+            </h3>
+            <p>{{ this.newsText }}</p>
+        </div>
+    {{/each}}
+</div>
