@@ -1,0 +1,17 @@
+{
+  "name": "dateWithLib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.5",
+    "parcel": "^2.0.0-beta.2"
+  }
+}
