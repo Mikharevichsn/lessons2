@@ -1,0 +1,22 @@
+.hotels-table {
+    width: 700px;
+}
+
+.hotels-table th,
+.hotels-table td {
+    border: 1px solid #000;
+}
+
+
+.add-hotel-form {
+    width: 250px;
+    border: 1px solid #000;
+    margin: 30px 20px;
+
+}
+
+.add-hotel-form * {
+    display: block;
+    margin: 5px;
+    
+}
