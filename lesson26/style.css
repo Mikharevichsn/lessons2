@@ -1,0 +1,22 @@
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+
+.add-restaurant-form {
+    padding: 10px 20px;
+    margin: 30px auto 0;
+    width: 200px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-restaurant-form input {
+    margin-bottom: 5px;
+}
